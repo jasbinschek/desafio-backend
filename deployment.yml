@@ -19,12 +19,9 @@ spec:
          - containerPort: 8080
        env:
          - name: APIKEY
-           value: 5lXvuGrDTfDvctXExRCy1p1X79sUqX-g_x1OqKY0ZyMg
+           value: w9kKE7rI4Jj_sStPwsAwbKGEp_ResyAWZknES0Je7yfs
          - name: URL
-           value: https://api.us-south.assistant.watson.cloud.ibm.com/instances/dbbebe9d-8612-4b33-ad46-25d90b5b3fd9
+           value: https://gateway-wdc.watsonplatform.net/assistant/api
          - name: ASSISTANT_ID
-           value: 4263f8ce-cf93-453c-818e-d6c9ab2cc855
+           value: 92994250-973c-462b-b084-32f1829cb4e7
        imagePullPolicy: Always
-
-
-
